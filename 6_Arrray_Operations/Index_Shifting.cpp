@@ -16,7 +16,6 @@ void shiftIndexFunc(int originalArr[]){
 	int length=4; // length of original Array
 	cout<<endl;
 	for(int i=shiftIndex-1;i>=0;i--){
-//		int temp=
 		shiftedArr[i]=originalArr[length];
 		length--;
 	}
